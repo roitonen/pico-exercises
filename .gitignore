@@ -1,0 +1,45 @@
+# Build artifacts
+/build/
+*/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+
+
+# Binaries
+*.elf
+*.bin
+*.uf2
+*.hex
+*.map
+*.o
+*.obj
+*.a
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# VS Code settings
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Backup and OS files
+*~
+.DS_Store
+Thumbs.db
+
+# Python / tools caches
+__pycache__/
+*.pyc
+
+# Ninja build files (if using ninja)
+.ninja_deps
+.ninja_log
