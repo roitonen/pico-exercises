@@ -15,6 +15,8 @@ project(pico_exercises C CXX ASM)
 pico_sdk_init()
 
 # Add subdirectory for the first exercise
+add_subdirectory(buttonkit)
+
 add_subdirectory(exercise1)
 add_subdirectory(exercise2)
 add_subdirectory(exercise3)
